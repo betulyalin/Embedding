@@ -57,7 +57,7 @@ top_n_results = [product_descriptions[i] for i in top_n_indices]
 print("Top-N yakın sonuçlar:")
 for idx, result in enumerate(top_n_results, 1):
     print(f"{idx}. {result}")
-
+------------------------------------------------------------------------------------------------------------------
 from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
